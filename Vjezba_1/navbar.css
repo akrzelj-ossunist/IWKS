@@ -61,7 +61,8 @@ footer div{
 }
 .footer_pic a{
     margin-top: -15px;
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
 }
 footer div h1{
     letter-spacing: 2px;
@@ -80,12 +81,20 @@ footer div p{
 .body div{
     flex: 1 1 460px;
 }
+.body div h1{
+    font-family: sans-serif;
+    font-size: 50px;
+}
+.body div p{
+    font-family: sans-serif;
+    font-size: 18px;
+}
 .form{
     margin: 70px;
 }
 .box{
     width: 75%;
-    border-style: groove;
+    border: 2px solid black;
     height: 20px;
     border-top: none;
     border-left: none;
@@ -109,7 +118,7 @@ footer div p{
 }
 .submit_button{
     background-color: rgb(255, 255, 255);
-    border-style: solid;
+    border: 2px solid black;
     border-radius: 10px;
     color:black;
     font-weight: bold;
@@ -117,9 +126,22 @@ footer div p{
     height: 25px;
 }
 .submit_button:hover{
-    background-color: rgb(212, 162, 99);
+    background-color: rgb(0, 0, 0);
     color:white;
 }
 .dropbox{
     border-radius: 5px;
+}
+.img_p{
+    display: flex;
+    flex-direction: row;
+}
+.img_p div h1{
+    font-size: 27px;
+    font-family: sans-serif;
+}
+.img_p div ul{
+    padding: 15px;
+    font-size: 18px;
+    font-family: sans-serif;
 }
