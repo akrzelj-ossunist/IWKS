@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="form.css">
+    <title>Test</title>
+</head>
+<body>
+    <a name="Home"></a>
+    <ul class="navbar_ul">
+        <li class="logo">LOGO</li>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Login">Sign Up</a></li>
+        <li><a class="ul_last_child" href="#about us">About us</a></li>
+    </ul>
+    <div class="header"> 
+        <!-- <h1 class="logo_h">Logo</h1> -->
+    </div>
+    <br>
+    <div class="body">
+        <div>
+            <h1>IT Expert Studio</h1>
+            <p>IT Expert Studio čini tim digitalnih stručnjaka koji se brzo i 
+            konstantno razvija, a koji svakom klijentu pristupaju individualno i posvećeno.</p>
+            <p>Izrada web sajta i pružanje efikasnih i proaktivnih marketinških rješenja nisu 
+            samo naša djelatnost, već i istrajna težnja ka stvaranju dugotrajnog kvaliteta.</p><br><br>
+            <div class="img_p">
+                <div>
+                    <h1>Zašto izabrati baš nas?</h1>
+                    <ul>
+                        <li>Višegodišnje iskustvo</li>
+                        <li>Zajamčeno zadovoljstvo kupca</li>
+                        <li>1. mjesec besplatan</li>
+                        <li>Ispod svake cijene</li>
+                    </ul>
+                </div>
+                <div class="img_edit">
+                    <img src="https://ecija.com/wp-content/uploads/2019/09/agenda-analysis-business-plan-990818.jpg">
+                </div>
+            </div>
+        </div>
+        <div>
+            <a name="Login"></a>
+            <form class="form">
+                <h1 class="login_h">Sign up</h1>
+                <label class="text" for="uname">Username:</label><br><br>
+                <input class="box" type="text" id="uname" name="Username" value=""><br><br>
+                <label class="text" for="email">Email:</label><br><br>
+                <input class="box" type="text" id="email" name="Email" value=""><br><br>
+                <label class="text" for="password">Password:</label><br><br>
+                <input class="box" type="password" id="password" name="Password" value=""><br><br>
+                <label class="text" for="login">Choose role:</label>
+                <select class="dropbox" name="login" id="login">
+                    <option value="" selected disabled hidden>Choose here...</option>
+                    <option value="Member">Member</option>
+                    <option value="c_creator">Content Creator</option>
+                    <option value="Admin">Administrator</option>
+                </select>
+                <input type="radio" id="male" name="gender" value="Male">
+                <label class="rtext" for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="Female">
+                <label class="text" for="feamle">Feamle</label><br><br>
+                <input class="submit_button" type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <br><br><br>
+    <footer class="footer">
+        <a name="about us"></a>
+        <div>
+            <h1>About us</h1>
+            <p>IT Expert Studio čini tim digitalnih stručnjaka koji se brzo i konstantno razvija, a koji svakom klijentu pristupaju individualno i posvećeno.</p>
+            <br>
+            <p>Izrada web sajta i pružanje efikasnih i proaktivnih marketinških rješenja nisu samo naša djelatnost, već i istrajna težnja ka stvaranju dugotrajnog kvaliteta.</p>
+        </div>
+        <div>
+            <h1>Info</h1>
+            <p>Domovinskog rata 22</p>
+            <p>21000 Split</p><br>
+            <p>+38555292929</p>
+            <p>info@gmail.com</p>
+            <p>Open: 07:00am - 11:00pm</p>
+        </div>
+        <div class="last_border">
+            <div class="footer_pic">
+                <img src="https://www.adobe.com/express/create/logo/media_1ba2722b76062fb428e1071c5cd59a5d9bc7fb94f.jpeg?width=400&format=jpeg&optimize=medium" width="150px">
+            </div>
+            <div class="footer_pic">
+                <a href="https://hr-hr.facebook.com"><img src="https://www.transparentpng.com/thumb/facebook-logo/facebook-logo-icon-png-22.png" width="30px"></a>
+                <a href="https://www.linkedin.com"><img src="https://www.transparentpng.com/thumb/linkedin/black-linkedin-png-transparent-image--11.png" width="30px"></a>
+                <a href="https://www.instagram.com"><img src="https://www.transparentpng.com/thumb/instagram-logo-icon/P9HtDp-instagram-logo-png-icon-transparent.png" width="30px"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
