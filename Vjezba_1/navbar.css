@@ -66,28 +66,3 @@ li a:hover::after{
 
 
 
-.img_p{
-    display: flex;
-    flex-direction: row;
-}
-.img_edit{
-    margin-right: 70px;
-    display: inline-block;
-    overflow: hidden;
-    align-self: center;
-}
-.img_edit img{
-    width: 100%;
-    height: auto;
-}
-.img_p div h1{
-    font-size: 27px;
-    font-family: sans-serif;
-}
-.img_p div ul{
-    margin-top: -15px;
-    padding: 15px;
-    line-height: 45px;
-    font-size: 18px;
-    font-family: sans-serif;
-}
