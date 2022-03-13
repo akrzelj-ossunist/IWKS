@@ -7,7 +7,6 @@ html{
     font-weight: bolder;
     font-size: 37px;
     text-transform: capitalize;
-    /* padding-right: 1000px; */
     padding-top: 5px;
 }
 .coat_of_arms{
@@ -20,8 +19,7 @@ html{
     background: url(header.jpg) no-repeat 50% 50%;
     background-size: cover;
     background-attachment: fixed;
-    /* with logo margin-top: -155px; */
-    margin-top: -73px; /* without logo */
+    margin-top: -73px;
 }
 .navbar_ul{
     position: sticky;
