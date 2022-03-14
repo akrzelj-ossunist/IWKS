@@ -77,7 +77,7 @@ li a:hover::after{
     .coat_of_arms{margin-left: 100px;}
 }
 @media(max-width: 400px){
-    .coat_of_arms{margin-left: 87px;}
+    .coat_of_arms{margin-left: 50px;}
 }
 @media (max-width: 900px){
     .responsive_nav{
