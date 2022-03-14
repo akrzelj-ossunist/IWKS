@@ -76,6 +76,9 @@ li a:hover::after{
 @media(max-width: 500px){
     .coat_of_arms{margin-left: 100px;}
 }
+@media(max-width: 400px){
+    .coat_of_arms{margin-left: 80px;}
+}
 @media (max-width: 900px){
     .responsive_nav{
         display: flex;
