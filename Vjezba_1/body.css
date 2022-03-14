@@ -20,12 +20,16 @@
 .img_p{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .img_edit{
     margin-right: 70px;
     display: inline-block;
-    overflow: hidden;
+    overflow:auto;
     align-self: center;
+}
+.img_p div{
+    flex: 1 1 300px;
 }
 .img_edit img{
     width: 100%;
