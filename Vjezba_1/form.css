@@ -1,5 +1,6 @@
 .form{
     margin: 70px;
+    margin-right: -70px;
 }
 .box{
     width: 75%;
@@ -41,5 +42,10 @@
 }
 .dropbox{
     border-radius: 5px;
-    margin-right: 30px;
+    margin-right: 25px;
+}
+@media(max-width: 700px){
+    .form{
+        margin: 0;
+    }
 }

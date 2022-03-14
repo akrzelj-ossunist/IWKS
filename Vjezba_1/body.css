@@ -23,13 +23,14 @@
     flex-wrap: wrap;
 }
 .img_edit{
-    margin-right: 70px;
+    margin-right: 3vw;
     display: inline-block;
     overflow:auto;
     align-self: center;
+
 }
 .img_p div{
-    flex: 1 1 300px;
+    flex: 1 1 280px;
 }
 .img_edit img{
     width: 100%;
