@@ -7,7 +7,7 @@ html{
     font-weight: bolder;
     font-size: 37px;
     text-transform: capitalize;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 .coat_of_arms{
     margin-top: 65px;
@@ -56,4 +56,42 @@ li a::after {
 li a:hover::after{
     width: 100%;
     transition: .4s;
+}
+.responsive_nav{
+    position: absolute;
+    top: 1rem;
+    right:2.7rem;
+    display:none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.bar{
+    height:3px;
+    width:100%;
+    background-color: white;
+    border-radius: 10px;
+}
+@media (max-width: 900px){
+    .responsive_nav{
+        display: flex;
+    }
+    .div_nav{
+        display: none;
+        flex-direction: column;
+        text-align: center;
+    }
+    .navbar_ul{
+        flex-direction: column;
+    }
+    li a{
+        font-size: 18px;
+    }
+    .div_nav.active{
+        display: flex;
+    }
+    .header.active{
+        margin-top: -202px;
+    }
 }
