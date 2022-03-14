@@ -24,12 +24,32 @@ footer div{
     padding-left: 20px;
     padding-right: 15px;
 }
-footer div h1{
+.footer_h1{
     letter-spacing: 2px;
     font-family: sans-serif;
     text-transform: uppercase;
 }
-footer div p{
+.footer_ph1{
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+.footer_ph{
     font-family: sans-serif;
     font-size: 15px;
+}
+.footer_p{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+@media(max-width: 500px){
+    footer{
+        display: block;
+    }
+    .footer_ph1{
+        font-size: 0px;
+    }
+    .footer_ph{
+        font-size: 0px;
+    }
 }
