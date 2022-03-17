@@ -1,0 +1,61 @@
+.muney{
+    border: 2px solid rgba(223,99,0);
+    margin-bottom: 50px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    margin-left: 50px;
+    transition: 0.3s;
+}
+.muney:hover{
+    background-color: rgb(223,99,0);
+}
+.muney:hover h2{
+    color: white;
+}
+.muney p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.muney:hover p{
+    color: white;
+}
+.muney:hover li{
+    color: white;
+}
+.muney:hover button{
+    border: white;
+}
+.muney:hover li span{
+    color: white;
+}
+.muney h2{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.muney p{
+    margin:20px;
+}
+.muney button{
+    background-color: white;
+    border: 2px solid rgba(223,99,0);
+    color: rgba(223,99,0);
+    width: 70%;
+    height: 40px;
+}
+.muney li{
+    margin-top: 20px;
+}
+.muney li span{
+    padding-right: 10px;
+    color: rgba(223,99,0);
+    font-weight:bold;
+}
+.member-margin{
+    margin-left: 40px;
+    margin-right: 70px;
+}
+@media (max-width:1200px) {
+    .col-sm-4{
+        width: 100%;
+    }
+}

@@ -1,0 +1,24 @@
+html{
+    scroll-behavior: smooth;
+}
+.connect-fluid{
+    margin-left: 100px;
+    margin-right: 230px;
+}
+.container-fluid img{
+    margin:20px;
+    margin-top: -10px;
+}
+
+.container-fluid h1{
+    font-size: 80px;
+    margin: 30px;
+    margin-left: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+@media(max-width:600px){
+    .container-fluid{
+        margin-left: 0px;
+    }
+}
