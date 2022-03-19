@@ -58,11 +58,9 @@
     color: rgba(223,99,0);
     font-weight:bold;
 }
-.member-margin{
-    margin-left: 100px;
-    margin-right: 120px;
+.container-fluid .sub-margin{
+    margin-right: 30px;
 }
-
 @media (max-width:1200px) {
     .col-sm-4{
         width: 100%;
