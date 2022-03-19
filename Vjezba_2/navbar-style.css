@@ -41,7 +41,7 @@
 }
 .ham-menu{
     position: absolute;
-    top: 37px;
+    top: 50px;
     right: 60px;
     display: none;
     flex-direction: column;
