@@ -81,15 +81,15 @@
 }
 @media(max-width:1500px) and (min-width:1200px){
     #first .muney{
-        
+        margin-right: 20px;
         margin-left: -25px;
     }
     #second .muney{
-        margin-right: -13px;
-        margin-left: -13px;
+        margin-right: -10px;
+        margin-left: 5px;
     }
     #third .muney{
-        
+        margin-left: 40px;
         margin-right: -25px;
     }
 }
