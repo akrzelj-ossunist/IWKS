@@ -63,18 +63,18 @@
     z-index: 100;
     position: fixed;
     top: 75px;
-    background-color: rgb(0,0,0,.8);
     width:100%;
-    justify-content: flex-end;
-    padding-right: 20px;
+    justify-content: space-between;
 }
 .links_drop_nav ul{
+    background-color: rgb(0,0,0,.8);
     margin: 0;
     padding: 0;
     display: flex;
     list-style-type: none;
-    margin-right: 50px;
+    margin-right: 105px;
     flex-direction: column;
+    
 }
 .links_drop_nav a{
     display: block;
@@ -122,6 +122,8 @@
     .nav-bar_drop_nav{
         justify-content: center;
         padding-right: 0px;
+        width: 100%;
+        margin-left: 0px;
     }
     .links_drop_nav{
         width: 100%;
