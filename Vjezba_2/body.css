@@ -36,3 +36,9 @@ html{
         margin-right: 0px;
     }
 }
+@media(max-width:400px){
+    .container-fluid h1{
+        margin-left: 0px;
+        font-size: 60px;
+    }   
+}

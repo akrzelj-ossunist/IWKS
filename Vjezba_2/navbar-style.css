@@ -190,3 +190,13 @@
         margin-left: 0px;
     }
 }
+@media(max-width:400px){
+    .logo_pic{
+        margin-left: 0px;
+        height: 75px;
+    }
+    .ham-menu{
+        top: 20px;
+        right: 40px;
+    }   
+}
