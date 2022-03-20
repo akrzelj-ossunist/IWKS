@@ -16,6 +16,7 @@ html{
 .container-fluid h1{
     font-size: 80px;
     margin: 30px;
+    margin-top: 100px;
     margin-left: 80px;
     font-family: 'Courier New', Courier, monospace;   
 }
