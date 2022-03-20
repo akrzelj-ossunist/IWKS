@@ -5,6 +5,9 @@ const dropRespNav = document.getElementsByClassName('nav-bar_drop_nav')[0]
 const showReturn = document.getElementsByClassName('return')[0]
 const dropNavJoin = document.getElementsByName('Join')[0]
 const JoinNav = document.getElementsByClassName('join_nav')[0]
+const homePlacemant = document.getElementsByName('home')[0]
+const infoPlacemant = document.getElementsByName('info')[0]
+const newMemberPlace = document.getElementsByName('member')[0]
 
 var JoinClicked = 0;
 var ProgClicked = 0;
@@ -12,6 +15,24 @@ var ProgClicked = 0;
 hamNav.addEventListener('click', ()=>{
     respNav.classList.toggle('active')
 })
+
+homePlacemant.addEventListener('click', ()=>{
+    respNav.classList.toggle('active')
+})
+
+infoPlacemant.addEventListener('click', ()=>{
+    respNav.classList.toggle('active')
+})
+
+newMemberPlace.addEventListener('click', ()=>{
+    respNav.classList.toggle('active')
+    JoinNav.classList.toggle('active')
+    respNav.classList.toggle('deactive')
+    showReturn.classList.toggle('active')
+    hamNav.classList.toggle('deactive')
+    JoinClicked = 0
+})
+
 dropNav.addEventListener('click', ()=>{
     dropRespNav.classList.toggle('active')
     respNav.classList.toggle('deactive')
