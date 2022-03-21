@@ -1,0 +1,17 @@
+.beg_str li{
+    font-size: 24px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+}
+.beg_str_hp p{
+    font-size: 24px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+}
+.beg_str_hp h1{
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
