@@ -1,0 +1,24 @@
+ime: antonio
+prezime: krzelj
+starost: 23
+spol: musko
+
+ime: ivo
+prezime: kalajzic
+starost: 14
+spol: musko
+
+ime: ivona
+prezime: ivic
+starost: 32
+spol: zensko
+
+ime: antonio
+prezime: krzelj
+starost: 23
+spol: musko
+
+ime: djani
+prezime: kopilica
+starost: 223
+spol: musko
