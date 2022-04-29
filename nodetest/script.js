@@ -56,35 +56,35 @@ function convertFile(){
     //Cita file char po char
     const contents = fp.readFileSync('file.txt', 'utf8')
     let str = ''
-    let json = []
-    let new_json = []
+    let employee = []
+    let new_employee = []
     let dict = {}
     let key = ''
-    //Pretvorili smo karaktere u rijeci i spremili u niz json
+    //Pretvorili smo karaktere u rijeci i spremili u niz employee
     for(let i = 0; i < contents.length; i++){
         if(checkChar(contents[i])){
             str += contents[i]
         }
         else if(str.length >= 1){
-            json.push(str)
+            employee.push(str)
             str = ''
         }
     }
     //Niz smo pretvorili u dictionary i pridruzili clanove 
-    for(let i = 0; i < json.length; i+=2){
-        if(json[i] === 'ime' && i > 0){
-            new_json.push(dict)
+    for(let i = 0; i < employee.length; i+=2){
+        if(employee[i] === 'ime' && i > 0){
+            new_employee.push(dict)
             dict = {}
-            dict[json[i]] = json[i + 1]
+            dict[employee[i]] = employee[i + 1]
         }
-        dict[json[i]] = json[i + 1]
+        dict[employee[i]] = employee[i + 1]
     }
     new_json.push(dict)
-    return json = new_json
+    return employee = new_employee
 }
 
-//Pozvali smo funkciju i spremili u json u kojem su spremljeni svi podaci o ljudima
-let json = convertFile()
+//Pozvali smo funkciju i spremili u niz employee u kojem su spremljeni svi podaci o ljudima
+let employee = convertFile()
 //Ovako npr mozemo pristupiti svim imenima
-let names = json.map(el => el.starost)
+let names = employee.map(el => el.starost)
 console.log(names)
