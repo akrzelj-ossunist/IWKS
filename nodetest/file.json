@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "ime": "ivo",
+    "prezime": "kalajzic",
+    "starost": "14",
+    "spol": "musko"
+  },
+  {
+    "id": 2,
+    "ime": "ivona",
+    "prezime": "ivic",
+    "starost": "32",
+    "spol": "zensko"
+  },
+  {
+    "id": 3,
+    "ime": "antonio",
+    "prezime": "krzelj",
+    "starost": "23",
+    "spol": "musko"
+  },
+  {
+    "id": 4,
+    "ime": "Ivan",
+    "prezime": "Juric",
+    "starost": "22",
+    "spol": "musko"
+  }
+]
