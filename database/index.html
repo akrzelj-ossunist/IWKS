@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="buttons">
+        <input type="button" name="userInput" value="Input new user">
+        <input type="button" name="userDelete" value="Delete user">
+        <input type="button" name="printUsers" value="Print all user">
+        <input type="button" name="findUsers" value="Find user">
+    </div>
+    <form class="form">
+        First name: <input type="text" id="Fname"><br><br>
+        Last name: <input type="text" id="Lname"><br><br>
+        Gender: <input type="text" id="gender"><br><br>
+        Age: <input type="text" id="age"><br><br>
+        <input type="button" name="Accept" onclick="newUser(document.getElementById('Fname').value
+        ,document.getElementById('Lname').value,document.getElementById('gender').value,
+        document.getElementById('age').value)" value="Accept">
+        <input type="button" name="exit" value="Exit"> 
+    </form>
+
+    <form class="formDel">
+        ID: <input type="text" id="Id"><br><br>
+        First name: <input type="text" id="FnameDel"><br><br>
+        <input type="button" name="delete" onclick="delUser(document.getElementById('Id').value
+        ,document.getElementById('FnameDel').value)" value="Delete"> 
+        <input type="button" name="exitDel" value="Exit"> 
+    </form>
+
+    <form class="printUser">
+        First name: <input type="text" id="FnameF"><br><br>
+        Last name: <input type="text" id="LnameF"><br><br>
+        <input type="button" name="search" onclick="findUsers(document.getElementById('FnameF').value
+        ,document.getElementById('LnameF').value)" value="Search">
+        <input type="button" name="exitSearch" value="Exit"> 
+    </form>
+    <script src="newUser.js"></script>
+</body>
+</html>
