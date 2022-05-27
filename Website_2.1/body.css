@@ -1,0 +1,44 @@
+html{
+    scroll-behavior: smooth;
+}
+.intro{
+    display: flex;
+    padding-top: 140px;
+}
+.intro h1{
+    padding: 30px;
+}
+.intro p{
+    padding: 30px;
+    padding-right: 150px;
+}
+.intro img{
+    padding-bottom: 100px;
+}
+@media(max-width: 1200px){
+    .intro{
+        flex-direction: column;
+    }
+}
+@media(max-width:600px){
+    .intro p{
+        padding-right: 40px;
+    }
+}
+
+.login-form{
+    display: flex;
+    justify-content: right;
+    background-image: url(./imgs/form.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+.login-form form{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 50px;
+    margin-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+}

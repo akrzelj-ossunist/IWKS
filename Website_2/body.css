@@ -1,0 +1,44 @@
+html{
+    scroll-behavior: smooth;
+}
+.connect-fluid{
+    margin-left: 100px;
+    margin-right: 230px;
+}
+.container-fluid img{
+    margin:20px;
+    margin-top: -10px;
+    margin-right: 80px;
+    width:30%; 
+    height:auto;
+}
+
+.container-fluid h1{
+    font-size: 80px;
+    margin: 30px;
+    margin-top: 100px;
+    margin-left: 80px;
+    font-family: 'Courier New', Courier, monospace;   
+}
+.container-fluid p{
+    margin-right: 80px;
+    margin-left: 60px;
+}
+@media(max-width:600px){
+    .container-fluid{
+        margin-left: 0px;
+    }
+    .container-fluid h1{
+        margin-left: 0px;
+    }
+    .container-fluid p{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+@media(max-width:400px){
+    .container-fluid h1{
+        margin-left: 0px;
+        font-size: 60px;
+    }   
+}
